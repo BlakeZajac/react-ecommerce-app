@@ -3,15 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "set PORT=3008 && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^1.9.0",
+    "@stripe/stripe-js": "^1.32.0",
+    "framer-motion": "^6.5.1",
     "next": "12.1.6",
+    "normalize.css": "^8.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "stripe": "^9.14.0",
+    "styled-components": "^5.3.5",
+    "urql": "^2.2.2"
   },
   "devDependencies": {
     "eslint": "8.18.0",
